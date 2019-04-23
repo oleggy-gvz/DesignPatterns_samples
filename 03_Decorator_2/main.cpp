@@ -1,21 +1,3 @@
-#include <iostream>
-#include <string>
-
-using namespace std;
-
-#include "Beverage\BeverageBase.h"
-#include "Beverage\Espresso.h"
-#include "Beverage\BlackTea.h"
-#include "Beverage\GreenTea.h"
-#include "Decorator\MilkCondiment.h"
-#include "Decorator\SugarCondiment.h"
-#include "Decorator\ChocolateCondiment.h"
-
-void PrintBeverage(shared_ptr<BeverageBase> beverage)
-{
-    cout << "Beverage: " << beverage->GetDescription() << "; Price: " << beverage->GetCost() << endl;
-}
-
 /*
  * Симулятор меню напитков в кофейне. Базовый напиток(BeverageBase), абстрактный класс в котором реализовано: поле описание (Description) и метод узнать цену (GetCost()).
  * На основе данного класса реализованы напитки Эспрессо (Espresso), Капуччино (Capuccino), Чай (BlackTea).
@@ -49,6 +31,23 @@ void PrintBeverage(shared_ptr<BeverageBase> beverage)
  *      Декоратор может нарушить работу программы которая опирается в своей работе на проверку объектов на их тип, т.к. после декорирования тип объекта изменится на
  *      декорируемый.
  */
+
+#include <iostream>
+#include <string>
+#include "Beverage\BeverageBase.h"
+#include "Beverage\Espresso.h"
+#include "Beverage\BlackTea.h"
+#include "Beverage\GreenTea.h"
+#include "Decorator\MilkCondiment.h"
+#include "Decorator\SugarCondiment.h"
+#include "Decorator\ChocolateCondiment.h"
+
+using namespace std;
+
+void PrintBeverage(shared_ptr<BeverageBase> beverage)
+{
+    cout << "Beverage: " << beverage->GetDescription() << "; Price: " << beverage->GetCost() << endl;
+}
 
 int main()
 {

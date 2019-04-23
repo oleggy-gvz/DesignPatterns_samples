@@ -1,9 +1,3 @@
-#include <iostream>
-#include <string>
-
-#include "Facilities\VolkswagenFacility.h"
-#include "Factory\SimpleFactory.h"
-
 /*
  * Для решения такой проблемы необходимо концептуально изменить принцип работы объектов. Создание объекта выделено в отдельный класс (SimpleFactory) в котором есть
  * тольк один метод создание объекта (GetCar). Данный клас и не зависит от других классов. Такой подход называется простая фабрика.
@@ -22,6 +16,11 @@
  * инстанциации классов, т.е. получения конкретных типов автомобилей. Т.е. не нужно для каждой отдельной фабрики реализовывать отдельный экземпляр
  * получения типа машины (объект SimpleFactory, метод CreateCar) и процесс создания машины (объект VolkswagenFacility, метод GetCar).
  */
+
+#include <iostream>
+#include <string>
+#include "Facilities\VolkswagenFacility.h"
+#include "Factory\SimpleFactory.h"
 
 int main()
 {

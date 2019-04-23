@@ -1,6 +1,12 @@
+/*
+ *
+ * Проблемы проектирования
+ * -----------------------
+ * Необходимо создать макро команды.
+ */
+
 #include <iostream>
 #include <string>
-
 #include "Commands\LightsCommand.h"
 #include "Commands\TvCommand.h"
 #include "Commands\MusicCommand.h"
@@ -12,13 +18,6 @@
 #include "RemoteControl.h"
 
 using namespace std;
-
-/*
- *
- * Проблемы проектирования
- * -----------------------
- * Необходимо создать макро команды.
- */
 
 int main()
 {

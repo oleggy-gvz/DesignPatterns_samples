@@ -1,9 +1,3 @@
-#include "Facilities\DeutschVolkswagenFacility.h"
-#include "Facilities\RussianVolkswagenFacility.h"
-#include <iostream>
-
-using namespace std;
-
 /*
  * АБСТРАКТНАЯ ФАБРИКА (РАСШИРЕННЫЙ ФАБРИЧНЫЙ МЕТОД)
  * (расширяемся до фабрик запчастей)
@@ -26,6 +20,12 @@ using namespace std;
  * Фабричный метод использует наследование, призван создавать лишь один продукт.
  * Абстрактная фабрика использует композицию, призвана создавать семейство продуктов сразу.
  */
+
+#include "Facilities\DeutschVolkswagenFacility.h"
+#include "Facilities\RussianVolkswagenFacility.h"
+#include <iostream>
+
+using namespace std;
 
 int main()
 {
