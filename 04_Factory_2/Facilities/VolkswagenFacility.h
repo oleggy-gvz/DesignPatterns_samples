@@ -19,7 +19,7 @@ public:
 
         return car;
     }
-
+protected:
     virtual shared_ptr<Car> CreateCar(const string &type) = 0;
 };
 
