@@ -1,8 +1,3 @@
-#include <iostream>
-#include <memory>
-#include "Food\Hamburger.h"
-#include "Food\HotDog.h"
-
 /*
  * ПАТТЕРН "ШАБЛОННЫЙ МЕТОД"
  *
@@ -27,6 +22,11 @@
  * и переопределяемости неких алгоритмов в процессе выполнения данного приложения.
  *
  */
+
+#include <iostream>
+#include <memory>
+#include "Food\Hamburger.h"
+#include "Food\HotDog.h"
 
 int main()
 {

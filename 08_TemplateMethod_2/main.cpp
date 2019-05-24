@@ -1,8 +1,3 @@
-#include <iostream>
-#include <memory>
-#include "Food\Hamburger.h"
-#include "Food\HotDog.h"
-
 /*
  * ПАТТЕРН "ШАБЛОННЫЙ МЕТОД"
  * Паттерн основывающийся на неком методе поведение которого может быть описано как шаблон. Т.е. был определен некий набросок какого либо алгоритма где
@@ -26,6 +21,11 @@
  * Т.е. нужно добавить метод валидации которые решают запусткать конкретный шаг готовки или нет.
  *
  */
+
+#include <iostream>
+#include <memory>
+#include "Food\Hamburger.h"
+#include "Food\HotDog.h"
 
 int main()
 {
