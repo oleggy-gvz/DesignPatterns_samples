@@ -13,10 +13,17 @@ public:
         RoastBread();
         PrepareMainIngredient();
         PutVegetables();
-        AddTopings();
+
+        if (CustomerWantsTopings())
+            AddTopings();
     }
     virtual void PrepareMainIngredient() = 0;
     virtual void AddTopings() = 0;
+
+    virtual bool CustomerWantsTopings()
+    {
+        return true;
+    }
 
     void RoastBread()
     {

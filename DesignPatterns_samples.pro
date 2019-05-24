@@ -28,7 +28,8 @@ SUBDIRS += \
     07_Facade_1 \
     08_TemplateMethod_0 \
     08_TemplateMethod_1 \
-    08_TemplateMethod_2 \    
+    08_TemplateMethod_2 \
+	08_TemplateMethod_3 \      
     09_State_0 \
     09_State_1 \
     10_Builder_0 \

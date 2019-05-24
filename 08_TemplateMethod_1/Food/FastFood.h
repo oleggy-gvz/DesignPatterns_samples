@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class FastFood
+class FastFood // базовый класс
 {
 public:
     virtual void Prepare() = 0;

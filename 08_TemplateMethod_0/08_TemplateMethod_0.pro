@@ -6,6 +6,4 @@ CONFIG -= qt
 SOURCES += \
         main.cpp
 
-HEADERS += \
-    Food/Hamburger.h \
-    Food/HotDog.h
+HEADERS +=

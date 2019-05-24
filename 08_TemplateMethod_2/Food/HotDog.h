@@ -9,14 +9,6 @@ using namespace std;
 class HotDog : public FastFood
 {
 public:
-    void Prepare()
-    {
-        RoastBread();
-        PrepareMainIngredient();
-        PutVegetables();
-        AddTopings();
-    }
-
     void PrepareMainIngredient()
     {
         cout << "Sausage" << endl;
