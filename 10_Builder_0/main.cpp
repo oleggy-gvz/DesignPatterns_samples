@@ -1,7 +1,3 @@
-#include <iostream>
-
-using namespace std;
-
 /*
  * ПАТТЕРН ""
  *
@@ -15,7 +11,12 @@ using namespace std;
  * -----------------------
  *
  *
+ *
  */
+
+#include <iostream>
+
+using namespace std;
 
 int main()
 {
