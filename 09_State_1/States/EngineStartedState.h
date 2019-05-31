@@ -4,49 +4,19 @@
 #include "States\IState.h"
 #include "Car.h"
 
-class EngineStartedState : IState
+class EngineStartedState : public IState
 {
-    shared_ptr<Car> _car;
+    Car *_car;
 
 public:
-    EngineStartedState(shared_ptr<Car> car)
-    {
-        _car = car;
-    }
-
-    void FillTank()
-    {
-        cout << "Can not refuel with a running engine." << endl;
-    }
-
-    void TurnKey()
-    {
-        cout << "Stop." << endl;
-    }
-
-    void Drive()
-    {
-        TryDrive();
-    }
-
-    void Stop()
-    {
-        cout << "I'm already stopped." << endl;
-    }
+    EngineStartedState(Car *car);
+    void FillTank();
+    void TurnKey();
+    void Drive();
+    void Stop();
 
 private:
-    void TryDrive()
-    {
-        if (_car->getGasoline() > 0)
-        {
-            cout << "Go!" << endl;
-            _car->setGasoline(_car->getGasoline() - 10);
-        }
-        else
-        {
-            cout << "Stop. Gasoline is over." << endl;
-        }
-    }
+    void TryDrive();
 };
 
 #endif // ENGINESTARTEDSTATE_H

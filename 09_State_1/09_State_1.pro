@@ -4,7 +4,12 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        main.cpp
+        main.cpp \
+    Car.cpp \
+    States/DrivingState.cpp \
+    States/EmptyTankState.cpp \
+    States/EngineStartedState.cpp \
+    States/FullTankState.cpp
 
 HEADERS += \
     Car.h \
