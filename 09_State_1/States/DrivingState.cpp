@@ -18,17 +18,7 @@ void DrivingState::TurnKey()
 
 void DrivingState::Drive()
 {
-    TryDrive();
-}
-
-void DrivingState::Stop()
-{
-    cout << "Enough driving? Stand..." << endl;
-    _car->SetState(_car->getEngineStartedState());
-}
-
-void DrivingState::TryDrive()
-{
+    // TryDrive(); // можно отказатся от метода TryDrive(), разместив код тут:
     if (_car->getGasoline() > 0)
     {
         cout << "Go!" << endl;
@@ -39,3 +29,22 @@ void DrivingState::TryDrive()
         _car->SetState(_car->getEmptyTankState());
     }
 }
+
+void DrivingState::Stop()
+{
+    cout << "Enough driving? Stand..." << endl;
+    _car->SetState(_car->getEngineStartedState());
+}
+
+/*void DrivingState::TryDrive()
+{
+    if (_car->getGasoline() > 0)
+    {
+        cout << "Go!" << endl;
+    }
+    else
+    {
+        cout << "Stop. Gasoline is over." << endl;
+        _car->SetState(_car->getEmptyTankState());
+    }
+}*/
