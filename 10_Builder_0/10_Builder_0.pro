@@ -5,3 +5,10 @@ CONFIG -= qt
 
 SOURCES += \
         main.cpp
+
+HEADERS += \
+    Car.h \
+    Factory/CarFactoryBase.h \
+    Factory/LuxuryCarFactory.h \
+    Factory/CheapCarFactory.h \
+    Builder/CarBuilderBase.h

@@ -14,11 +14,11 @@ class ICommand
 public:
     virtual void Execute() = 0;
     virtual void Undo() = 0;
-    virtual ostream& stream_out(ostream& out) const = 0;
+    virtual ostream& stream_out(ostream &out) const = 0;
 };
 
 // переопределяем оператор << для объектов-наследников ICommand
-ostream & operator<<(ostream & out, ICommand const & ic)
+ostream & operator<<(ostream & out, const ICommand &ic)
 {
     return ic.stream_out(out);
 }
