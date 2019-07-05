@@ -19,6 +19,12 @@ public:
     {
         return car;
     }
+    virtual void BuildMultimedia() = 0;
+    virtual void BuildWheels() = 0;
+    virtual void BuildEngine() = 0;
+    virtual void BuildFrames() = 0;
+    virtual void BuildLuxury() = 0;
+    virtual void BuildSafety() = 0;
 };
 
 #endif // CAR_BUILDER_BASE_H

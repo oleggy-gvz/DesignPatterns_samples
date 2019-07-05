@@ -20,7 +20,6 @@ public:
     friend ostream & operator<<(ostream &, const Car &);
 };
 
-// переопределяем оператор << для объектов-наследников ICommand
 ostream & operator<<(ostream &out, const Car &car)
 {
     out << "Frame: " << car.Frame << endl;
