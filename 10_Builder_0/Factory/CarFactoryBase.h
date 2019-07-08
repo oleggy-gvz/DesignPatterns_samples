@@ -10,9 +10,9 @@ class CarFactoryBase
 protected:
     shared_ptr<CarBuilderBase> CarBuilder;
 
-    CarFactoryBase(shared_ptr<CarBuilderBase> builder)
+    CarFactoryBase(CarBuilderBase *builder)
     {
-        CarBuilder = builder;
+        CarBuilder = shared_ptr<CarBuilderBase>(builder);
     }
 
 public:

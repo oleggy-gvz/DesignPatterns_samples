@@ -6,12 +6,17 @@
 class CheapCarFactory : public CarFactoryBase
 {
 public:
-    CheapCarFactory(shared_ptr<CarBuilderBase> builder) : CarFactoryBase(builder)
+    CheapCarFactory(CarBuilderBase *builder) : CarFactoryBase(builder)
     {}
 
     shared_ptr<Car> Construct()
     {
-        throw 1;
+        CarBuilder->BuildFrames();
+        CarBuilder->BuildEngine();
+        CarBuilder->BuildWheels();
+        CarBuilder->BuildSafety();
+
+        return CarBuilder->GetCar();
     }
 };
 

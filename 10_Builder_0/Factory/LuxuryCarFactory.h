@@ -6,12 +6,19 @@
 class LuxuryCarFactory : public CarFactoryBase
 {
 public:
-    LuxuryCarFactory(shared_ptr<CarBuilderBase> builder) : CarFactoryBase(builder)
+    LuxuryCarFactory(CarBuilderBase *builder) : CarFactoryBase(builder)
     {}
 
     shared_ptr<Car> Construct()
     {
-        throw 1;
+        CarBuilder->BuildFrames();
+        CarBuilder->BuildEngine();
+        CarBuilder->BuildWheels();
+        CarBuilder->BuildSafety();
+        CarBuilder->BuildMultimedia();
+        CarBuilder->BuildLuxury();
+
+        return CarBuilder->GetCar();
     }
 };
 

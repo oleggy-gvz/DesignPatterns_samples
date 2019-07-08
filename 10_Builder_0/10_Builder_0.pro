@@ -11,4 +11,6 @@ HEADERS += \
     Factory/CarFactoryBase.h \
     Factory/LuxuryCarFactory.h \
     Factory/CheapCarFactory.h \
-    Builder/CarBuilderBase.h
+    Builder/CarBuilderBase.h \
+    Builder/AudiBuilder.h \
+    Builder/VolkswagenBuilder.h

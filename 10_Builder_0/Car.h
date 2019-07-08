@@ -3,12 +3,13 @@
 
 #include <iostream>
 #include <string>
+#include <memory>
 
 using namespace std;
 
 class Car
 {
-private:
+public:
     string Engine;
     string Frame;
     string Wheels;
@@ -17,17 +18,17 @@ private:
     string Safety;
 
 public:
-    friend ostream & operator<<(ostream &, const Car &);
+    friend ostream & operator<<(ostream &out, shared_ptr<Car> car);
 };
 
-ostream & operator<<(ostream &out, const Car &car)
+ostream & operator<<(ostream &out, shared_ptr<Car> car)
 {
-    out << "Frame: " << car.Frame << endl;
-    out << "Engine: " << car.Engine << endl;
-    out << "Wheels: " << car.Wheels << endl;
-    out << "Multimedia: " << car.Multimedia << endl;
-    out << "Safety: " << car.Safety << endl;
-    out << "Luxury: " << car.Luxury << endl;
+    out << "Frame: " << car->Frame << endl;
+    out << "Engine: " << car->Engine << endl;
+    out << "Wheels: " << car->Wheels << endl;
+    out << "Multimedia: " << car->Multimedia << endl;
+    out << "Safety: " << car->Safety << endl;
+    out << "Luxury: " << car->Luxury << endl;
 
     return out;
 }
