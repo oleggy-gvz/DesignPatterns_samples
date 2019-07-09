@@ -19,12 +19,10 @@
  * Класс CarFactoryBase имеет указатель на класс CarBuilderBase, который передается ему через конструктор. И единственный абстрактный метод Construct
  * который возвращает объект Car.
  *
- *
- *
- * Проблема проектирования:
- * ------------------------
- *
- *
+ * Комбинация из Фабрики и Строителя получается выгодным решением для конструирования приложений в котором есть потребность по крупицам набирать объекты
+ * какого либо характера.
+ * Если реализовывать такое только Фабрикой то пришлось манипулировать множеством различных фабрик. А в данном случае фабрика используется лишь для простоты
+ * примера.
  *
  */
 
@@ -38,7 +36,7 @@ using namespace std;
 
 int main()
 {
-#ifdef BUILDER
+#ifdef BUILDER // only BUILDER & FACTORY METHOD
 
     shared_ptr<VolkswagenBuilder> vwBuilder(new VolkswagenBuilder());
 
@@ -57,7 +55,7 @@ int main()
     car = vwBuilder->GetCar();
     cout << car << endl;
 
-#else
+#else // only FACTORY METHOD
 
     cout << "Cheap Volkswagen:" << endl;
     shared_ptr<CarFactoryBase> constructor(new CheapCarFactory(new VolkswagenBuilder()));
@@ -80,5 +78,6 @@ int main()
     cout << car << endl;
 
 #endif
+
     return 0;
 }
