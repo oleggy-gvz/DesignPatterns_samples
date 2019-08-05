@@ -33,7 +33,7 @@ public:
 };
 
 // переопределяем оператор << для объектов-наследников ICommand
-ostream & operator<<(ostream & out, ICommand const & ic)
+ostream & operator<<(ostream & out, const ICommand &ic)
 {
     return ic.stream_out(out);
 }

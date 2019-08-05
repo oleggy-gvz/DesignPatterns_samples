@@ -32,22 +32,19 @@ public:
         _commands[buttonId] = shared_ptr<ICommand>(cmd);
     }
 
-    ostream& stream_out(ostream &out) const
-    {
-        stringstream ss;
-
-        for (auto it = _commands.begin(); it != _commands.end(); ++it)
-           ss << it->first << " \t - " << *(it->second) << endl;
-        ss << "etc. \t - Exit" << endl;
-
-        out << ss.str();
-        return out;
-    }
+    friend ostream& operator<<(ostream &out, const RemoteControl &rc);
 };
 
-ostream & operator<<(ostream & out, RemoteControl const & rc)
+ostream& operator<<(ostream &out, const RemoteControl  &rc)
 {
-    return rc.stream_out(out);
+     stringstream ss;
+
+     for (auto it = rc._commands.begin(); it != rc._commands.end(); ++it)
+        ss << it->first << " \t - " << *(it->second) << endl;
+     ss << "etc. \t - Exit" << endl;
+
+     out << ss.str();
+     return out;
 }
 
 #endif // REMOTECONTROL_H
