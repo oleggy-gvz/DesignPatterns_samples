@@ -7,9 +7,9 @@ SOURCES += \
         main.cpp
 
 HEADERS += \
-    HomeCats/IHomeCat.h \
-    HomeCats/PedigreedCat.h \
-    HomeCats/YardCat.h \
-    WildCats/IWildCat.h \
-    WildCats/Tiger.h \
-    CatInfoPrinter.h
+    HomeCats/IHomeCat.hpp \
+    HomeCats/PedigreedCat.hpp \
+    HomeCats/YardCat.hpp \
+    WildCats/IWildCat.hpp \
+    WildCats/Tiger.hpp \
+    CatInfoPrinter.hpp

@@ -32,11 +32,11 @@
  */
 
 #include <iostream>
-#include "WashingMachine\WaterManagingSubsystem.h"
-#include "WashingMachine\Dryer.h"
-#include "WashingMachine\Engine.h"
-#include "WashingMachine\Thermo.h"
-#include "WashingMachine\WashingMachine.h"
+#include "WashingMachine\WaterManagingSubsystem.hpp"
+#include "WashingMachine\Dryer.hpp"
+#include "WashingMachine\Engine.hpp"
+#include "WashingMachine\Thermo.hpp"
+#include "WashingMachine\WashingMachine.hpp"
 #include <memory>
 
 using namespace std;

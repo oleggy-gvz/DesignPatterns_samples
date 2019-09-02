@@ -27,10 +27,10 @@
  */
 
 #include <iostream>
-#include "Builder\VolkswagenBuilder.h"
-#include "Builder\AudiBuilder.h"
-#include "Factory\CheapCarFactory.h"
-#include "Factory\LuxuryCarFactory.h"
+#include "Builder\VolkswagenBuilder.hpp"
+#include "Builder\AudiBuilder.hpp"
+#include "Factory\CheapCarFactory.hpp"
+#include "Factory\LuxuryCarFactory.hpp"
 
 using namespace std;
 

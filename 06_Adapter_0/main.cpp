@@ -14,10 +14,10 @@
  */
 
 #include <iostream>
-#include "HomeCats\PedigreedCat.h"
-#include "HomeCats\YardCat.h"
-#include "WildCats\Tiger.h"
-#include "CatInfoPrinter.h"
+#include "HomeCats\PedigreedCat.hpp"
+#include "HomeCats\YardCat.hpp"
+#include "WildCats\Tiger.hpp"
+#include "CatInfoPrinter.hpp"
 
 using namespace std;
 

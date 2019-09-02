@@ -7,7 +7,7 @@ SOURCES += \
         main.cpp
 
 HEADERS += \
-    WashingMachine/Dryer.h \
-    WashingMachine/Engine.h \
-    WashingMachine/Thermo.h \
-    WashingMachine/WaterManagingSubsystem.h
+    WashingMachine/Dryer.hpp \
+    WashingMachine/Engine.hpp \
+    WashingMachine/Thermo.hpp \
+    WashingMachine/WaterManagingSubsystem.hpp

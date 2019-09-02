@@ -24,8 +24,8 @@
 
 #include <iostream>
 #include <memory>
-#include "Food\Hamburger.h"
-#include "Food\HotDog.h"
+#include "Food\Hamburger.hpp"
+#include "Food\HotDog.hpp"
 
 int main()
 {

@@ -123,7 +123,6 @@ public:
 
     void SetCommandOnButton(string buttonId, ICommand *cmd)
     {
-        //_commands.insert(pair<string, shared_ptr<ICommand>> (buttonId, shared_ptr<ICommand>(cmd)));
         _commands[buttonId] = shared_ptr<ICommand>(cmd);
     }
 };

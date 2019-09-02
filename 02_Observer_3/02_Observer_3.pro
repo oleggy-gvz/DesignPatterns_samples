@@ -7,10 +7,10 @@ SOURCES += \
         main.cpp
 
 HEADERS += \
-    Widgets/IWidget.h \
-    Widgets/LentaWidget.h \
-    Widgets/TvWidget.h \
-    Widgets/TwitterWidget.h \
-    Widgets/IObserver.h \
-    News/ISubject.h \
-    News/NewsAgregator.h
+    Widgets/IWidget.hpp \
+    Widgets/LentaWidget.hpp \
+    Widgets/TvWidget.hpp \
+    Widgets/TwitterWidget.hpp \
+    Widgets/IObserver.hpp \
+    News/ISubject.hpp \
+    News/NewsAgregator.hpp

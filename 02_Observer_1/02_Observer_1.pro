@@ -7,9 +7,9 @@ SOURCES += \
         main.cpp
 
 HEADERS += \
-    Widgets/IObserver.h \
-    Widgets/LentaWidget.h \
-    Widgets/TvWidget.h \
-    Widgets/TwitterWidget.h \
-    News/ISubject.h \
-    News/NewsAgregator.h
+    Widgets/IObserver.hpp \
+    Widgets/LentaWidget.hpp \
+    Widgets/TvWidget.hpp \
+    Widgets/TwitterWidget.hpp \
+    News/ISubject.hpp \
+    News/NewsAgregator.hpp

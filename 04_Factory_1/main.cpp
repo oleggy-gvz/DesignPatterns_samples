@@ -20,8 +20,8 @@
 
 #include <iostream>
 #include <string>
-#include "Facilities\VolkswagenFacility.h"
-#include "Factory\SimpleFactory.h"
+#include "Facilities\VolkswagenFacility.hpp"
+#include "Factory\SimpleFactory.hpp"
 
 int main()
 {

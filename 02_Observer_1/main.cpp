@@ -23,10 +23,10 @@
 #include <vector>
 #include <ctime>
 
-#include "News\NewsAgregator.h"
-#include "Widgets\TwitterWidget.h"
-#include "Widgets\LentaWidget.h"
-#include "Widgets\TvWidget.h"
+#include "News\NewsAgregator.hpp"
+#include "Widgets\TwitterWidget.hpp"
+#include "Widgets\LentaWidget.hpp"
+#include "Widgets\TvWidget.hpp"
 
 using namespace std;
 

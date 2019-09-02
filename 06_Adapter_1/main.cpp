@@ -24,11 +24,11 @@
  */
 
 #include <iostream>
-#include "HomeCats\PedigreedCat.h"
-#include "HomeCats\YardCat.h"
-#include "WildCats\Tiger.h"
-#include "Adapters\HomeCatAdapter.h"
-#include "CatInfoPrinter.h"
+#include "HomeCats\PedigreedCat.hpp"
+#include "HomeCats\YardCat.hpp"
+#include "WildCats\Tiger.hpp"
+#include "Adapters\HomeCatAdapter.hpp"
+#include "CatInfoPrinter.hpp"
 
 using namespace std;
 

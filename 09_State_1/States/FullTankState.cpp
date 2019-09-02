@@ -1,5 +1,5 @@
-#include "States\FullTankState.h"
-#include "Car.h"
+#include "States\FullTankState.hpp"
+#include "Car.hpp"
 
 FullTankState::FullTankState(Car *car)
 {

@@ -13,15 +13,15 @@
 #include <iostream>
 #include <string>
 
-#include "Commands\LightsCommand.h"
-#include "Commands\TvCommand.h"
-#include "Commands\MusicCommand.h"
-#include "Commands\TeapotCommand.h"
-#include "ControlledSystems\Light.h"
-#include "ControlledSystems\Music.h"
-#include "ControlledSystems\Teapot.h"
-#include "ControlledSystems\Tv.h"
-#include "RemoteControl.h"
+#include "Commands\LightsCommand.hpp"
+#include "Commands\TvCommand.hpp"
+#include "Commands\MusicCommand.hpp"
+#include "Commands\TeapotCommand.hpp"
+#include "ControlledSystems\Light.hpp"
+#include "ControlledSystems\Music.hpp"
+#include "ControlledSystems\Teapot.hpp"
+#include "ControlledSystems\Tv.hpp"
+#include "RemoteControl.hpp"
 
 using namespace std;
 

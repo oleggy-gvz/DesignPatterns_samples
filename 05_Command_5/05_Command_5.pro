@@ -7,14 +7,14 @@ SOURCES += \
         main.cpp
 
 HEADERS += \
-    Commands/ICommand.h \
-    Commands/LightsCommand.h \
-    Commands/MusicCommand.h \
-    Commands/TvCommand.h \
-    Commands/TeapotCommand.h \
-    ControlledSystems/Light.h \
-    ControlledSystems/Music.h \
-    ControlledSystems/Teapot.h \
-    RemoteControl.h \
-    ControlledSystems/Tv.h \
-    Commands/MacroCommand.h
+    Commands/ICommand.hpp \
+    Commands/LightsCommand.hpp \
+    Commands/MusicCommand.hpp \
+    Commands/TvCommand.hpp \
+    Commands/TeapotCommand.hpp \
+    ControlledSystems/Light.hpp \
+    ControlledSystems/Music.hpp \
+    ControlledSystems/Teapot.hpp \
+    RemoteControl.hpp \
+    ControlledSystems/Tv.hpp \
+    Commands/MacroCommand.hpp

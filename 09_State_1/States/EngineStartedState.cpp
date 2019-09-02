@@ -1,5 +1,5 @@
-#include "States\EngineStartedState.h"
-#include "Car.h"
+#include "States\EngineStartedState.hpp"
+#include "Car.hpp"
 
 EngineStartedState::EngineStartedState(Car *car)
 {

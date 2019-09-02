@@ -1,5 +1,5 @@
-#include "States\DrivingState.h"
-#include "Car.h"
+#include "States\DrivingState.hpp"
+#include "Car.hpp"
 
 DrivingState::DrivingState(Car *car)
 {

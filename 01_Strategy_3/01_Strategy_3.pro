@@ -7,16 +7,16 @@ SOURCES += \
         main.cpp \
 
 HEADERS += \
-    Duck/ExoticDuck.h \
-    Duck/SimpleDuck.h \
-    Duck/WoodenDuck.h \
-    Duck/DuckBase.h \
-    Duck/RubberDuck.h \
-    Duck/UpgradableDuck.h \
-    Fly/IFlyable.h \
-    Fly/FlyWithWings.h \
-    Fly/NoFly.h \
-    Quack/IQuackable.h \
-    Quack/SimpleQuack.h \
-    Quack/NoQuack.h \
-    Quack/ExoticQuack.h
+    Duck/ExoticDuck.hpp \
+    Duck/SimpleDuck.hpp \
+    Duck/WoodenDuck.hpp \
+    Duck/DuckBase.hpp \
+    Duck/RubberDuck.hpp \
+    Duck/UpgradableDuck.hpp \
+    Fly/IFlyable.hpp \
+    Fly/FlyWithWings.hpp \
+    Fly/NoFly.hpp \
+    Quack/IQuackable.hpp \
+    Quack/SimpleQuack.hpp \
+    Quack/NoQuack.hpp \
+    Quack/ExoticQuack.hpp

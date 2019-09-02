@@ -7,10 +7,10 @@ SOURCES += \
         main.cpp
 
 HEADERS += \
-    Car.h \
-    Factory/CarFactoryBase.h \
-    Factory/LuxuryCarFactory.h \
-    Factory/CheapCarFactory.h \
-    Builder/CarBuilderBase.h \
-    Builder/AudiBuilder.h \
-    Builder/VolkswagenBuilder.h
+    Car.hpp \
+    Factory/CarFactoryBase.hpp \
+    Factory/LuxuryCarFactory.hpp \
+    Factory/CheapCarFactory.hpp \
+    Builder/CarBuilderBase.hpp \
+    Builder/AudiBuilder.hpp \
+    Builder/VolkswagenBuilder.hpp

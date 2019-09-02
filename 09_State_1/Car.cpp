@@ -1,8 +1,8 @@
-#include "States\EmptyTankState.h"
-#include "States\FullTankState.h"
-#include "States\EngineStartedState.h"
-#include "States\DrivingState.h"
-#include "Car.h"
+#include "States\EmptyTankState.hpp"
+#include "States\FullTankState.hpp"
+#include "States\EngineStartedState.hpp"
+#include "States\DrivingState.hpp"
+#include "Car.hpp"
 
 using namespace std;
 

@@ -7,10 +7,10 @@ SOURCES += \
         main.cpp
 
 HEADERS += \
-    Factory/SimpleFactory.h \
-    Cars/Golf.h \
-    Cars/Car.h \
-    Cars/Passat.h \
-    Cars/Tiguan.h \
-    Cars/Touareg.h \
-    Facilities/VolkswagenFacility.h
+    Factory/SimpleFactory.hpp \
+    Cars/Golf.hpp \
+    Cars/Car.hpp \
+    Cars/Passat.hpp \
+    Cars/Tiguan.hpp \
+    Cars/Touareg.hpp \
+    Facilities/VolkswagenFacility.hpp

@@ -12,9 +12,9 @@ SOURCES += \
     States/FullTankState.cpp
 
 HEADERS += \
-    Car.h \
-    States/IState.h \
-    States/FullTankState.h \
-    States/EngineStartedState.h \
-    States/EmptyTankState.h \
-    States/DrivingState.h
+    Car.hpp \
+    States/IState.hpp \
+    States/FullTankState.hpp \
+    States/EngineStartedState.hpp \
+    States/EmptyTankState.hpp \
+    States/DrivingState.hpp

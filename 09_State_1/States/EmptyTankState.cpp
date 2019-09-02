@@ -1,5 +1,5 @@
-#include "States\EmptyTankState.h"
-#include "Car.h"
+#include "States\EmptyTankState.hpp"
+#include "Car.hpp"
 
 EmptyTankState::EmptyTankState(Car *car)
 {

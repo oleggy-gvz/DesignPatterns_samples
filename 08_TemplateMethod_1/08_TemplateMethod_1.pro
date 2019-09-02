@@ -7,6 +7,6 @@ SOURCES += \
         main.cpp
 
 HEADERS += \
-    Food/Hamburger.h \
-    Food/HotDog.h \
-    Food/FastFood.h
+    Food/Hamburger.hpp \
+    Food/HotDog.hpp \
+    Food/FastFood.hpp

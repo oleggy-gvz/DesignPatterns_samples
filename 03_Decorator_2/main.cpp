@@ -34,13 +34,13 @@
 
 #include <iostream>
 #include <string>
-#include "Beverage\BeverageBase.h"
-#include "Beverage\Espresso.h"
-#include "Beverage\BlackTea.h"
-#include "Beverage\GreenTea.h"
-#include "Decorator\MilkCondiment.h"
-#include "Decorator\SugarCondiment.h"
-#include "Decorator\ChocolateCondiment.h"
+#include "Beverage\BeverageBase.hpp"
+#include "Beverage\Espresso.hpp"
+#include "Beverage\BlackTea.hpp"
+#include "Beverage\GreenTea.hpp"
+#include "Decorator\MilkCondiment.hpp"
+#include "Decorator\SugarCondiment.hpp"
+#include "Decorator\ChocolateCondiment.hpp"
 
 using namespace std;
 

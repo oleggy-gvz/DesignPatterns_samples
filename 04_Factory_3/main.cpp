@@ -20,8 +20,8 @@
  * Абстрактная фабрика использует композицию, призвана создавать семейство продуктов сразу.
  */
 
-#include "Facilities\DeutschVolkswagenFacility.h"
-#include "Facilities\RussianVolkswagenFacility.h"
+#include "Facilities\DeutschVolkswagenFacility.hpp"
+#include "Facilities\RussianVolkswagenFacility.hpp"
 #include <iostream>
 
 using namespace std;

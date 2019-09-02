@@ -35,12 +35,12 @@
 #include <list>
 #include <memory>
 
-#include "Duck\DuckBase.h"
-#include "Duck\ExoticDuck.h"
-#include "Duck\SimpleDuck.h"
-#include "Duck\WoodenDuck.h"
-#include "Duck\RubberDuck.h"
-#include "Duck\UpgradableDuck.h"
+#include "Duck\DuckBase.hpp"
+#include "Duck\ExoticDuck.hpp"
+#include "Duck\SimpleDuck.hpp"
+#include "Duck\WoodenDuck.hpp"
+#include "Duck\RubberDuck.hpp"
+#include "Duck\UpgradableDuck.hpp"
 
 using namespace std;
 

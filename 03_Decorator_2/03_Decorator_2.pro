@@ -7,12 +7,12 @@ SOURCES += \
         main.cpp
 
 HEADERS += \
-    Beverage/BeverageBase.h \
-    Beverage/BlackTea.h \
-    Beverage/Espresso.h \
-    Beverage/GreenTea.h \
-    Decorator/CondimentsDecoratorBase.h \
-    Beverage/Capuccino.h \
-    Decorator/SugarCondiment.h \
-    Decorator/MilkCondiment.h \
-    Decorator/ChocolateCondiment.h
+    Beverage/BeverageBase.hpp \
+    Beverage/BlackTea.hpp \
+    Beverage/Espresso.hpp \
+    Beverage/GreenTea.hpp \
+    Decorator/CondimentsDecoratorBase.hpp \
+    Beverage/Capuccino.hpp \
+    Decorator/SugarCondiment.hpp \
+    Decorator/MilkCondiment.hpp \
+    Decorator/ChocolateCondiment.hpp
