@@ -11,10 +11,8 @@ private:
     shared_ptr<Music> _music;
 
 public:
-    MusicCommand(Music *music)
-    {
-        _music = shared_ptr<Music>(music);
-    }
+    MusicCommand(Music *music) : _music(shared_ptr<Music>(music))
+    {}
 
     void Execute()
     {

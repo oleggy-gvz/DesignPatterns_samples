@@ -13,10 +13,8 @@ private:
     stack<LightsState> _states;
 
 public:
-    LightsCommand(Light *light)
-    {
-        _light = shared_ptr<Light>(light);
-    }
+    LightsCommand(Light *light) : _light(shared_ptr<Light>(light))
+    {}
 
     void Execute()
     {

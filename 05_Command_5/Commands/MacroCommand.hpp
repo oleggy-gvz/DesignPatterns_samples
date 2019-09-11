@@ -42,7 +42,7 @@ public:
         stringstream ss;
 
         for (auto &innerCommand : _innerCommand)
-           ss << *innerCommand << ", ";
+           ss << innerCommand << ", ";
 
         out << ss.str();
         return out;

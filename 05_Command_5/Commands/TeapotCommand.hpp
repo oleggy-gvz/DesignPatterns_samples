@@ -11,10 +11,8 @@ private:
     shared_ptr<Teapot> _teapot;
 
 public:
-    TeapotCommand(Teapot *teapot)
-    {
-        _teapot = shared_ptr<Teapot>(teapot);
-    }
+    TeapotCommand(Teapot *teapot) : _teapot(shared_ptr<Teapot>(teapot))
+    {}
 
     void Execute()
     {

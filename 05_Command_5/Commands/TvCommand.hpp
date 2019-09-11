@@ -11,10 +11,8 @@ private:
     shared_ptr<Tv> _tv;
 
 public:
-    TvCommand(Tv *tv)
-    {
-        _tv = shared_ptr<Tv>(tv);
-    }
+    TvCommand(Tv *tv) : _tv(shared_ptr<Tv>(tv))
+    {}
 
     void Execute()
     {
