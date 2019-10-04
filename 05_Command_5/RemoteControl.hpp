@@ -34,15 +34,23 @@ public:
     friend ostream& operator<<(ostream &out, const RemoteControl &rc);
 };
 
+//ostream& operator<<(ostream &out, const RemoteControl  &rc)
+//{
+//     stringstream ss;
+
+//     for (auto it = rc._commands.begin(); it != rc._commands.end(); ++it)
+//        ss << it->first << " \t - " << *(it->second) << endl;
+//     ss << "etc. \t - Exit" << endl;
+
+//     out << ss.str();
+//     return out;
+//}
+
 ostream& operator<<(ostream &out, const RemoteControl  &rc)
 {
-     stringstream ss;
-
      for (auto it = rc._commands.begin(); it != rc._commands.end(); ++it)
-        ss << it->first << " \t - " << *(it->second) << endl;
-     ss << "etc. \t - Exit" << endl;
-
-     out << ss.str();
+        out << it->first << " \t - " << *(it->second) << endl;
+     out << "etc. \t - Exit" << endl;
      return out;
 }
 
